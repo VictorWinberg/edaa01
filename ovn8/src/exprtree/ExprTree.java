@@ -9,7 +9,7 @@ public class ExprTree {
 
 	/**
 	 * Skapar ett binärt träd med innehållet data i roten och med leftTree som
-	 * vänster underträd och rightTree som höger underträd.
+	 * vänster underträd och rightTree som h�ger underträd.
 	 */
 	public ExprTree(String element, ExprTree leftTree, ExprTree rightTree) {
 		root = new ExprNode(element);

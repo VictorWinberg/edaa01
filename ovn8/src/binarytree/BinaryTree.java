@@ -10,7 +10,7 @@ public class BinaryTree<E> {
 
 	/**
 	 * Skapar ett binärt träd med innehållet data i roten och med leftTree som
-	 * vänster underträd och rightTree som höger underträd.
+	 * vänster underträd och rightTree som h�ger underträd.
 	 */
 	public BinaryTree(E data, BinaryTree<E> leftTree, BinaryTree<E> rightTree) {
 		root = new Node<E>(data);

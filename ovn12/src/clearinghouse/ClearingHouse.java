@@ -20,13 +20,13 @@ public class ClearingHouse {
 	}
 	
 	/** 
-	* Låter kunden customer lägga en köporder av aktieslaget shareId till 
-	* budpriset price. Genomför köpet om matchande säljorder finns, i annat 
-	* fall lagras köpordern i motsvarande orderkö.
+	* Låter kunden customer lägga en k�porder av aktieslaget shareId till 
+	* budpriset price. Genomf�r k�pet om matchande säljorder finns, i annat 
+	* fall lagras k�pordern i motsvarande orderk�.
 	* @param customer kunden
 	* @param shareId aktieslag
 	* @param price budpris
-	* @throws NoSuchElementException om det inte finns någon orderkö för 
+	* @throws NoSuchElementException om det inte finns någon orderk� f�r 
 	* aktieslaget shareId.
 	*/
 	public void buy(Customer customer, String shareId, double price) {
@@ -35,22 +35,22 @@ public class ClearingHouse {
 	
 	/** 
 	* Låter kunden customer lägga en säljorder av aktieslaget shareId till 
-	* budpriset price. Genomför försäljningen om matchande säljorder finns, i annat 
-	* fall lagras säljordern i motsvarande orderkö.
+	* budpriset price. Genomf�r f�rsäljningen om matchande säljorder finns, i annat 
+	* fall lagras säljordern i motsvarande orderk�.
 	* @param customer kunden
 	* @param shareId aktieslag
 	* @param price budpris
-	* @throws NoSuchElementException om det inte finns någon orderkö för 
+	* @throws NoSuchElementException om det inte finns någon orderk� f�r 
 	* aktieslaget shareId.
 	*/
 	public void sell(Customer customer, String shareId, double price) {
 		// Fyll i egen kod
 	}
 
-	/** Genomför affären med ordrarna buyOrder och sellOrder. */
+	/** Genomf�r affären med ordrarna buyOrder och sellOrder. */
 	private void execute(Order buyOrder, Order sellOrder) {
 		// Simulerar aktieaffär
-		System.out.println("Köp: " + buyOrder.getPrice() + " " + " sälj: " + sellOrder.getPrice());	
+		System.out.println("K�p: " + buyOrder.getPrice() + " " + " sälj: " + sellOrder.getPrice());	
 	}
 	
 	public String toString() {

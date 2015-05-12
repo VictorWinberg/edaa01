@@ -8,8 +8,8 @@ public class OrderQueues {
 	private PriorityQueue<Order> sellOrders;	// sorterad efter växande pris
 
 	/** 
-	 * Skapar ett objekt som hanterar en kö för köpordrar och en kö för säljordrar 
-	 * för aktien med id shareId. 
+	 * Skapar ett objekt som hanterar en k� f�r k�pordrar och en k� f�r säljordrar 
+	 * f�r aktien med id shareId. 
 	 * @param shareId 
 	 */
 	public OrderQueues(String shareId) {
@@ -17,9 +17,9 @@ public class OrderQueues {
 	}
 	
 	/**
-	 * Lägger till en köporder ifall matchande säljorder inte finns. 
+	 * Lägger till en k�porder ifall matchande säljorder inte finns. 
 	 * Om matchande säljorder finns tas säljordern bort och returneras.
-	 * @param buyOrder köporder
+	 * @param buyOrder k�porder
 	 * @return matchande säljorder om sådan finns, i annat fall null
 	 */
 	public Order addBuyOrder(Order buyOrder) {
@@ -28,10 +28,10 @@ public class OrderQueues {
 	}
 	
 	/**
-	 * Lägger till en säljorder ifall matchande köporder inte finns. 
-	 * Om matchande köporder finns tas köpordern bort och returneras.
+	 * Lägger till en säljorder ifall matchande k�porder inte finns. 
+	 * Om matchande k�porder finns tas k�pordern bort och returneras.
 	 * @param buyOrder säljorder
-	 * @return matchande köporder om sådan finns, i annat fall null
+	 * @return matchande k�porder om sådan finns, i annat fall null
 	 */
 	public Order addSellOrder(Order sellOrder) {
 		// Fyll i egen kod
@@ -40,7 +40,7 @@ public class OrderQueues {
 	
 	
 	public String toString() {
-		return "Köporder: " + buyOrders + " säljorder: " +sellOrders;
+		return "K�porder: " + buyOrders + " säljorder: " +sellOrders;
 	}
 
 }
