@@ -23,7 +23,7 @@ public class Anagram {
 
 	/**
 	 * Returnerar en mängd med alla ord som är anagram till ett visst ord. word
-	 * ska inte ingå i den mångd som returneras. Om word inte har några insatta
+	 * ska inte ing� i den m�ngd som returneras. Om word inte har n�gra insatta
 	 * anagram ska en tom mängd returneras.
 	 */
 	public Set<String> getAnagramsOf(String word) {

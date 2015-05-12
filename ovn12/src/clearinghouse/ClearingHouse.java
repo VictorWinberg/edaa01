@@ -20,13 +20,13 @@ public class ClearingHouse {
 	}
 	
 	/** 
-	* L√•ter kunden customer l√§gga en köporder av aktieslaget shareId till 
+	* Låter kunden customer l√§gga en köporder av aktieslaget shareId till 
 	* budpriset price. Genomför köpet om matchande s√§ljorder finns, i annat 
 	* fall lagras köpordern i motsvarande orderkö.
 	* @param customer kunden
 	* @param shareId aktieslag
 	* @param price budpris
-	* @throws NoSuchElementException om det inte finns n√•gon orderkö för 
+	* @throws NoSuchElementException om det inte finns någon orderkö för 
 	* aktieslaget shareId.
 	*/
 	public void buy(Customer customer, String shareId, double price) {
@@ -34,13 +34,13 @@ public class ClearingHouse {
 	}
 	
 	/** 
-	* L√•ter kunden customer l√§gga en s√§ljorder av aktieslaget shareId till 
+	* Låter kunden customer l√§gga en s√§ljorder av aktieslaget shareId till 
 	* budpriset price. Genomför förs√§ljningen om matchande s√§ljorder finns, i annat 
 	* fall lagras s√§ljordern i motsvarande orderkö.
 	* @param customer kunden
 	* @param shareId aktieslag
 	* @param price budpris
-	* @throws NoSuchElementException om det inte finns n√•gon orderkö för 
+	* @throws NoSuchElementException om det inte finns någon orderkö för 
 	* aktieslaget shareId.
 	*/
 	public void sell(Customer customer, String shareId, double price) {

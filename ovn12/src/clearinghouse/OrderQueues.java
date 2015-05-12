@@ -20,7 +20,7 @@ public class OrderQueues {
 	 * L채gger till en k쉚order ifall matchande s채ljorder inte finns. 
 	 * Om matchande s채ljorder finns tas s채ljordern bort och returneras.
 	 * @param buyOrder k쉚order
-	 * @return matchande s채ljorder om s책dan finns, i annat fall null
+	 * @return matchande s채ljorder om s똡an finns, i annat fall null
 	 */
 	public Order addBuyOrder(Order buyOrder) {
 		// Fyll i egen kod
@@ -31,7 +31,7 @@ public class OrderQueues {
 	 * L채gger till en s채ljorder ifall matchande k쉚order inte finns. 
 	 * Om matchande k쉚order finns tas k쉚ordern bort och returneras.
 	 * @param buyOrder s채ljorder
-	 * @return matchande k쉚order om s책dan finns, i annat fall null
+	 * @return matchande k쉚order om s똡an finns, i annat fall null
 	 */
 	public Order addSellOrder(Order sellOrder) {
 		// Fyll i egen kod

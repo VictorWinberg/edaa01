@@ -9,7 +9,7 @@ public class BinaryTree<E> {
 	}
 
 	/**
-	 * Skapar ett bin채rt tr채d med inneh책llet data i roten och med leftTree som
+	 * Skapar ett bin채rt tr채d med inneh똪let data i roten och med leftTree som
 	 * v채nster undertr채d och rightTree som h쉍er undertr채d.
 	 */
 	public BinaryTree(E data, BinaryTree<E> leftTree, BinaryTree<E> rightTree) {

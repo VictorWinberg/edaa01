@@ -18,13 +18,13 @@ public class Book {
 	
 	public static void main(String[] args) {
 		TreeSet<Book> set = new TreeSet<Book>();
-		set.add(new Book("9113013645", "De tv√• tornen", "Tolkien"));
+		set.add(new Book("9113013645", "De två tornen", "Tolkien"));
 		set.add(new Book("9113016482", "Hobbiten", "Tolkien"));
 		System.out.println(set.contains(new Book("9113016482","", "")));
 		System.out.println(set.contains(new Book("9113013645", "", "")));
 		
 		TreeMap<String, Book> tree = new TreeMap<String, Book>();
-		tree.put ("9113013645", new Book("9113013645", "De tv√• tornen", "Tolkien"));
+		tree.put ("9113013645", new Book("9113013645", "De två tornen", "Tolkien"));
 		tree.put ("9113016482", new Book("9113016482", "Hobbiten", "Tolkien"));
 		System.out.println(tree.get("9113016482"));
 		System.out.println(tree.get("9113013645"));
